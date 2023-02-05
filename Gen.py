@@ -26,11 +26,11 @@ except:
     pass
 
 try:
-    os.system("pip install colorfade")
+    os.system("pip install coloreq")
 except:
     pass
 
-from colorfade import color
+from coloreq import color
 import discord
 from discord.ext import commands
 import requests
